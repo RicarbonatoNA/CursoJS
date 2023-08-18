@@ -1,3 +1,4 @@
+//Modificar Textos o Imagenes con JS
 const encabezado = document.querySelector('.contenido-hero h1').textContent;
 console.log(encabezado);
 
