@@ -1,13 +1,8 @@
 const formulario = document.querySelector('#formulario');
 
-formulario.addEventListener('submit', (e) => {
-    e.preventDefault();
+formulario.addEventListener('submit', validarFormulario);
 
-    console.log('buscando...');
-    console.log(e.target.action);
-});
-
-function validarFormulario () {
+function validarFormulario (e) {
     e.preventDefault();
 
     console.log('buscando...');
